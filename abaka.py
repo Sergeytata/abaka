@@ -123,7 +123,7 @@ class Abaka:
         self.dice_state = keep_and_roll(self.dice_state, keep)
 
     def get_action_reward(self, action: int):
-        return game.actions_return_state[action]
+        return self.actions_return_state[action]
 
     def get_player_score(self, player_id: int):
         ix = player_id*6
