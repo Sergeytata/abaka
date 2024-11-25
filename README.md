@@ -23,3 +23,8 @@ The player must return an action
 - dice2keep action (2^5 = 32 possible actions)
 - cell2score action (6 possible actions)
 In total, the player has 45 possible actions
+
+
+
+## Work progress
+The version of the game implement simple 2 or more of a kind game. The next version will have all abaka fields in the game.
